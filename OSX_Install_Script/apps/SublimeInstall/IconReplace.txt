@@ -1,0 +1,13 @@
+Installation (Mac OS X)
+
+Open the following folder:
+
+open /Applications/Sublime\ Text\ 2.app/Contents/Resources/
+Find the file Sublime Text 2.icns and replace with the one from this repository. The name needs to remain exactly the same.
+
+If you want to replace the built-in document icons as well, copy all the .icns files from this project's Document Icons folder to the same folder as above. Doing so will overwrite the application's default icons, so you may want to back them up in case you'd like to restore them.`
+
+Additionally, there's a bash script that will do all of the above, with a little trick to force reloading the application icons. With Sublime closed, from this project's folder, run:
+
+./mac_replace_icons
+You can also just double click on the 'mac_replace_icons' script, and it will run in terminal. Because it uses sudo, you'll need to put in your password.

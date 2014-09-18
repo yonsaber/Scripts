@@ -1,0 +1,26 @@
+{
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+
+	"highlight_line": true,
+
+	"match_brackets": true, 
+
+	"match_brackets_angle": true,
+
+	"match_brackets_braces": true, 
+
+	"match_brackets_content": true,
+
+	"match_brackets_square": true,
+
+	"highlight_modified_tabs": true,
+
+	"line_padding_bottom": 1,
+
+	"line_padding_top": 1,
+
+	"indent_guide_options": ["draw_normal", "draw_active"]
+}
